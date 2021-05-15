@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "Circle",
+    "control": [
+      [0.0, 0.0],
+      [1.0, 1.0],
+      [2.0, 0.0]
+    ],
+    "closed": False
+  },
+  {
+    "kind": "LineString",
+    "vertices": [
+      [0.0, 0.0],
+      [1.0, 0.0]
+    ]
+  }
+]

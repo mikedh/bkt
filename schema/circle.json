@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Circle",
+  "description": "A circular arc or closed circle defined by three points.",
+  "type": "object",
+  "properties": {
+    "kind": {
+      "description": "Always equal to `circle`",
+      "pattern": "circle",
+      "type": "string"
+    },
+    "vertices": {
+      "description": "Three unique control points for the circular arc.",
+      "type": "array"
+    },
+    "closed": {
+      "description": "Is this a closed circle, or a partial circular arc.",
+      "type": "bool"
+    }
+  },
+  "required": ["kind", "vertices", "closed"]
+}
